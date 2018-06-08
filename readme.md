@@ -11,12 +11,13 @@
 - 微信支付功能，用于微信收款
 
 ###实现方式
+- **输入流程：**拍照-裁剪-区域划分-OCR识别-填入相应字段-用户效验-修改-确认提交。
+- **查询流程：**模糊查询-输入关键字-查询结果-结果大于5条时显示前5条，并可输入第二关键字，在结果中查询。
+- 标签增加
 
 
 ###软件模块需求
 - python
 - PILLOW（图片处理），[学习文档](https://pillow.readthedocs.io/en/5.1.x/reference/Image.html)
 - [pytesser](https://www.cnblogs.com/chenbjin/p/4147564.html)
-- 微信小程序
-
-cd
+- 微信小程序，[简易教程](https://developers.weixin.qq.com/miniprogram/dev/)，粗略学习了一下微信小程序开发，居然发现个人用户无法进行微信认证，也就是说没办法使用收款的功能。晕死。
