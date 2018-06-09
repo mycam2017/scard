@@ -20,5 +20,8 @@
 - python
 - PILLOW（图片处理），[学习文档](https://pillow.readthedocs.io/en/5.1.x/reference/Image.html)
 - [Tesseract](https://www.polarxiong.com/archives/python-pytesser-tesseract.html)
+- tesseract中文识别率很差，但可以进行训练，但训练过程还是需要花很多的精力和时间，不适合自己全新的去实施。
 - 微信小程序，[简易教程](https://developers.weixin.qq.com/miniprogram/dev/)，粗略学习了一下微信小程序开发，居然发现个人用户无法进行微信认证，也就是说没办法使用收款的功能。晕死。
-add1
+
+###结论：
+通过查找资料分析发现，该项目基本不可行，1是需要大量的时间训练开源的OCR识别软件，2是基本无法实现收费，项目意义不大，项目终止。
