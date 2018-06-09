@@ -19,5 +19,6 @@
 ###软件模块需求
 - python
 - PILLOW（图片处理），[学习文档](https://pillow.readthedocs.io/en/5.1.x/reference/Image.html)
-- [pytesser](https://www.cnblogs.com/chenbjin/p/4147564.html)
+- [Tesseract](https://www.polarxiong.com/archives/python-pytesser-tesseract.html)
 - 微信小程序，[简易教程](https://developers.weixin.qq.com/miniprogram/dev/)，粗略学习了一下微信小程序开发，居然发现个人用户无法进行微信认证，也就是说没办法使用收款的功能。晕死。
+add1
